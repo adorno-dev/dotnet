@@ -1,0 +1,11 @@
+name: razorpages-movie
+services:
+  razorpages-movie:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: razorpages-movie
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=@p4ss0rd
+      - MSSQL_PID=developer
+    ports:
+      - "1433:1433"
