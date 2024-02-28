@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F83052D-B60
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "src\RazorPagesMovie\RazorPagesMovie.csproj", "{D8838662-093C-4805-A172-DAE65204E4ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "src\MvcMovie\MvcMovie.csproj", "{7E47FA61-27BF-4B5A-AED5-B495EF5AA140}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{D8838662-093C-4805-A172-DAE65204E4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8838662-093C-4805-A172-DAE65204E4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8838662-093C-4805-A172-DAE65204E4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E47FA61-27BF-4B5A-AED5-B495EF5AA140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E47FA61-27BF-4B5A-AED5-B495EF5AA140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E47FA61-27BF-4B5A-AED5-B495EF5AA140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E47FA61-27BF-4B5A-AED5-B495EF5AA140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8838662-093C-4805-A172-DAE65204E4ED} = {4F83052D-B60D-44C4-AB1F-452D396975DB}
+		{7E47FA61-27BF-4B5A-AED5-B495EF5AA140} = {4F83052D-B60D-44C4-AB1F-452D396975DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C94863-EF83-457B-913A-4ACF91B64241}
