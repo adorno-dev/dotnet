@@ -1,0 +1,8 @@
+name: workstation
+services:
+  dev-mongodb:
+    restart: always
+    container_name: dev-mongodb
+    image: mongo
+    ports:
+        - 27017:27017
